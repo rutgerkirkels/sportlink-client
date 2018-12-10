@@ -1,0 +1,24 @@
+{
+  "name": "rutgerkirkels/sportlink-client",
+  "type": "library",
+  "description": "Connect to Sportlink Club.Dataservice using PHP",
+  "license": "MIT",
+  "keywords": ["sportlink","club", "dataservice", "client", "API"],
+  "authors": [
+    {
+      "name": "Rutger Kirkels",
+      "email": "rutger@kirkels.nl",
+      "homepage": "https://rutger.kirkels.nl"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "rutgerkirkels\\SportlinkClient\\": "src"
+    }
+  }
+}
